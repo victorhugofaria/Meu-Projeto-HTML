@@ -1,0 +1,18 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color:lightgray;
+    text-align: center;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+}
+
+.lista {
+    list-style: none;
+}
+.mainlink a:hover {
+    color: blue;
+    
+}
