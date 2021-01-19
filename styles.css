@@ -2,6 +2,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color:lightgray;
     text-align: center;
+    background-image: linear-gradient(to bottom, #648DE5,#28464B);
+}
+p{
+    color: #D4DCFF;
+}
+nav ul li a {
+    color: #000000;
+}
+
+a.nounderline:link{
+    text-decoration: none;
+    
 }
 
 .container {
@@ -11,8 +23,4 @@ body {
 
 .lista {
     list-style: none;
-}
-.mainlink a:hover {
-    color: blue;
-    
 }
