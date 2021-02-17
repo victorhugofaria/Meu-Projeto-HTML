@@ -2,25 +2,71 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color:lightgray;
     text-align: center;
-    background-image: linear-gradient(to bottom, #648DE5,#28464B);
-}
-p{
-    color: #D4DCFF;
-}
-nav ul li a {
-    color: #000000;
+    background-image: linear-gradient(to bottom, #6883BA,#443850);
 }
 
-a.nounderline:link{
+header {
+    font-size: 50px;
+    font-weight:bold;
+    padding: 10px;
+    text-shadow: 2px 2px 8px;
+}
+
+.apresentacao {
+    text-align: center;
+    color: #F7D6E0;
+}
+.apresentacao img {
+    width: 26%;
+    
+}
+.bio {
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+.canais {
+     margin: 1em 0;
+}
+
+.canais h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 8px;
+}
+.canais a{
     text-decoration: none;
+    color: black;
+}
+
+.canais a:hover {
+    font-size: large;
+    color: #B0E298;
+}
+.curriculo {
+    text-align: center;
+    font-size: 20px;
     
 }
 
-.container {
-    width: auto;
-    margin: auto;
+.curriculo h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px;
+}
+.curriculo a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
 }
 
-.lista {
-    list-style: none;
+.curriculo a:hover {
+    color: #B0E298;
+    font-size: 1em;
 }
